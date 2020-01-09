@@ -1,0 +1,52 @@
+ruuter - Ühendada omavahel erinevaid võrke (suunates võrguliiklust õiges suunas)
+
+kohtvõrgukommutaator (switch) - 
+
+tulemüür (firewall) - 
+
+WiFi tugijaam (WiFi access point) - 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+SSH -
+
+telnet -
+
+IMAP, POP3, SMTP -
+
+SNMP -
+
+HTTP, HTTPS - Kasutatakse veebiliikluse edastamisel
+
+DNS -
+
+NTP -
+
+IP - IP-aadress ehk internetiaadress on arvutivõrgus asuva seadme (arvuti või nutiseadme) 
+identifikaator ehk seadmele määratud alaline või ajutine tunnusnumber, mille abil võrku ühendatud seadmed üksteist leiavad.
+
+IPv6 - andmesideprotokoll, 
+mis on loodud praegusel ajal üldkasutatava Internetiprotokolli IPv4 asendamiseks. (128 bittine aadress) 
+
+TCP - Tcpdump on avatud lähtekoodiga käsurea vahend võrguliikluse jälgimiseks. 
+Ta mõistab loogilisi otsinguoperaatoreid ja saab argumentidena kasutada hostinimesid, IP-aadresse, võrgunimesid ja -protokolle.
+
+UDP -
+
+ICMP -
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Wireshark -
+
+tcpdump -
+
+ping - Ping on reaktsiooni kiirus. Kui palju võtab aega vastuse saamine pärast seda kui oled välja saatnud info.
+
+traceroute / tracert -
+
+nslookup / dig -
+
+Ressource monitor (Windows) -
+
+netstat -
