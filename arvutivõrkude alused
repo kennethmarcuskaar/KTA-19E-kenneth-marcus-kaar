@@ -2,15 +2,19 @@ ruuter - Ühendada omavahel erinevaid võrke (suunates võrguliiklust õiges suu
 
 kohtvõrgukommutaator (switch) - 
 
-tulemüür (firewall) - 
+tulemüür (firewall) - Tulemüür on tarkvara või seade, 
+mis turvakaalutlustel piirab ja reguleerib võrguliiklust arvutivõrgus või võrkude vahel vastavalt määratud reeglitele.
 
 WiFi tugijaam (WiFi access point) - 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-SSH -
+SSH - Turvakest (inglise keeles Secure Shell, lühendatult SSH) on krüptograafiline võrguprotokoll 
+turvaliseks võrguteenuste opereerimiseks turvamata võrgu kaudu. 
+Põhiliselt kasutavad seda arvutikasutajad arvutisüsteemidesse kaugsisselogimiseks.
 
-telnet -
+telnet - Telnet on TCP/IP-il põhinev võrguprotokoll, mis pakub kahesuunalist interaktiivset suhtlusteenust. 
+Tavaliselt kasutatakse Telneti käsureaprogrammina võrgu kaudu kaugsisselogimiseks.
 
 IMAP, POP3, SMTP -
 
@@ -44,7 +48,8 @@ ICMP -
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Wireshark -
+Wireshark - tasuta avatud lähtekoodiga program, mida kasutatakse vigade otsimiseks, analüüsimiseks ja paljudeks muudeks võrkutega seotud
+probleemide lahendamiskes.
 
 tcpdump - Tcpdump on avatud lähtekoodiga käsurea vahend võrguliikluse jälgimiseks. 
 Ta mõistab loogilisi otsinguoperaatoreid ja saab argumentidena kasutada hostinimesid, IP-aadresse, võrgunimesid ja -protokolle.
@@ -57,4 +62,5 @@ nslookup / dig -
 
 Ressource monitor (Windows) -
 
-netstat -
+netstat - (ingl network statistics) selle abil otsitakse võrgus esinevaid probleeme ja 
+selgitatakse välja kui suur liiklus antud võrgus on 
