@@ -18,7 +18,8 @@ SNMP -
 
 HTTP, HTTPS - Kasutatakse veebiliikluse edastamisel
 
-DNS -
+DNS - Domeeninimede süsteem on internetiteenus, mis teisendab domeeninimed internetis 
+või intranetis kasutatavateks IP-aadressideks ja vajadusel ka vastupidi
 
 NTP -
 
@@ -28,10 +29,16 @@ identifikaator ehk seadmele määratud alaline või ajutine tunnusnumber, mille 
 IPv6 - andmesideprotokoll, 
 mis on loodud praegusel ajal üldkasutatava Internetiprotokolli IPv4 asendamiseks. (128 bittine aadress) 
 
-TCP - Tcpdump on avatud lähtekoodiga käsurea vahend võrguliikluse jälgimiseks. 
-Ta mõistab loogilisi otsinguoperaatoreid ja saab argumentidena kasutada hostinimesid, IP-aadresse, võrgunimesid ja -protokolle.
+TCP - (ingl Transmission Control Protocol) Edastusohje protokoll on levinuim transpordikihi võrguprotokoll, 
+mida kasutatakse TCP/IP võrkudes TCP-protokolliga saadetavaid pakette toimetab edasi võrgukihi protokoll, 
+milleks on üldjuhul internetiprotokoll (IP). TCP/IP mudeli järgi on loodud enamik arvutivõrke.
 
-UDP -
+UDP - Kasutajadatagrammi protokoll on transpordikihi andmesideprotokoll, mis on defineeritud IPga sõnumite saatmiseks.
+UDP võimaldab IP-aadressiga kirjeldatud otspunktide vahele luua olekuta ühendusi ehk UDPl ei ole erinevalt TCPst 
+selgelt eristatavaid olekuid "suletud", "ühendamisel", "ühendatud". Kuna ühenduse olekut ei kontrollita, 
+peab UDP kasutama best-effort põhimõtet ehk paketi väljasaatmise järel loodetakse,
+et see jõuab kohale. Kui pakett mingil põhjusel kohale ei jõua,
+ei ole saatjal võimalik seda protokolli tasemel tuvastada ja seetõttu ei toimu ka automaatset paketi uuestisaatmist.
 
 ICMP -
 
@@ -39,7 +46,8 @@ ICMP -
 
 Wireshark -
 
-tcpdump -
+tcpdump - Tcpdump on avatud lähtekoodiga käsurea vahend võrguliikluse jälgimiseks. 
+Ta mõistab loogilisi otsinguoperaatoreid ja saab argumentidena kasutada hostinimesid, IP-aadresse, võrgunimesid ja -protokolle.
 
 ping - Ping on reaktsiooni kiirus. Kui palju võtab aega vastuse saamine pärast seda kui oled välja saatnud info.
 
