@@ -73,3 +73,11 @@ Ressource monitor (Windows) - programm, mis näitab kasutaja seadme riistvaraga 
 
 netstat - (ingl network statistics) selle abil otsitakse võrgus esinevaid probleeme ja 
 selgitatakse välja kui suur liiklus antud võrgus on 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Kursusel kasutatud programmid
+
+Wireshark
+Virtualbox
+Vagrant
