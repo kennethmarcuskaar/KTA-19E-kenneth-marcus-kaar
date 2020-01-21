@@ -1,11 +1,11 @@
 ruuter - Ühendada omavahel erinevaid võrke (suunates võrguliiklust õiges suunas)
 
-kohtvõrgukommutaator (switch) - 
+kohtvõrgukommutaator (switch) - seade, mis ühendab seadmeid arvutivõrgus
 
 tulemüür (firewall) - Tulemüür on tarkvara või seade, 
 mis turvakaalutlustel piirab ja reguleerib võrguliiklust arvutivõrgus või võrkude vahel vastavalt määratud reeglitele.
 
-WiFi tugijaam (WiFi access point) - 
+WiFi tugijaam (WiFi access point) - seade, millega saab edastada WiFi signaale
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -16,16 +16,24 @@ Põhiliselt kasutavad seda arvutikasutajad arvutisüsteemidesse kaugsisselogimis
 telnet - Telnet on TCP/IP-il põhinev võrguprotokoll, mis pakub kahesuunalist interaktiivset suhtlusteenust. 
 Tavaliselt kasutatakse Telneti käsureaprogrammina võrgu kaudu kaugsisselogimiseks.
 
-IMAP, POP3, SMTP -
+POP3 (Post Office Protocol) protokolli kasutades laetakse kõik kirjad serverist alla, 
+sinna kuhu postkast on seadistatud (näiteks arvuti või telefon).
 
-SNMP -
+IMAP (Internet Mail Access Protocol) protokolli kasutades hoitakse 
+nii vastu võetud kui saadetud kirju korraga serveris kui ka selle lugemise tarkvaras.
+
+Lihtne meiliedastusprotokoll (ingl Simple Mail Transfer Protocol, SMTP) on internetiprotokollistikku kuuluv protokoll e-kirjade edastamiseks. 
+Postiserverid kasutavad seda harilikult nii kirjade saatmiseks kui ka vastuvõtmiseks, meilikliendid seevastu ainult serverisse saatmiseks.
+
+SNMP - Lihtne võrguhalduse protokoll (inglise keeles Simple Network Management Protocol, lühend SNMP) on internetistandardi protokoll 
+IP-võrkudes hallatavatelt seadmetelt andmete kogumiseks ja korraldamiseks ning nende andmete muutmist seadmete käitumise mõjutamiseks.
 
 HTTP, HTTPS - Kasutatakse veebiliikluse edastamisel
 
 DNS - Domeeninimede süsteem on internetiteenus, mis teisendab domeeninimed internetis 
 või intranetis kasutatavateks IP-aadressideks ja vajadusel ka vastupidi
 
-NTP -
+NTP - Võrguaja protokoll (inglise Network Time Protocol, lühendina NTP) on andmesideprotokoll täpse aja edastamiseks ajaserveritest.
 
 IP - IP-aadress ehk internetiaadress on arvutivõrgus asuva seadme (arvuti või nutiseadme) 
 identifikaator ehk seadmele määratud alaline või ajutine tunnusnumber, mille abil võrku ühendatud seadmed üksteist leiavad.
@@ -44,7 +52,8 @@ peab UDP kasutama best-effort põhimõtet ehk paketi väljasaatmise järel loode
 et see jõuab kohale. Kui pakett mingil põhjusel kohale ei jõua,
 ei ole saatjal võimalik seda protokolli tasemel tuvastada ja seetõttu ei toimu ka automaatset paketi uuestisaatmist.
 
-ICMP -
+ICMP - Interneti kontrollsõnumiprotokoll (inglise keeles Internet Control Message Protocol ehk ICMP) on andmesideprotokoll, 
+mille abil võrguseadmed vahetavad oleku- ja veainformatsiooni.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,11 +65,11 @@ Ta mõistab loogilisi otsinguoperaatoreid ja saab argumentidena kasutada hostini
 
 ping - Ping on reaktsiooni kiirus. Kui palju võtab aega vastuse saamine pärast seda kui oled välja saatnud info.
 
-traceroute / tracert -
+traceroute / tracert - arvutivõrgu diagnostika käsurida, mis kuvab pakettide teekonda ja hilinemist üle IP võrgu.
 
-nslookup / dig -
+nslookup / dig - võrgu administreerimis käsurida millega esitada päringuid DNSile, et saada domeeni nime või IP aadressi kaardistust.
 
-Ressource monitor (Windows) -
+Ressource monitor (Windows) - programm, mis näitab kasutaja seadme riistvaraga seonduvat infot(CPU, mälu, ketas, võrgud) reaalajas
 
 netstat - (ingl network statistics) selle abil otsitakse võrgus esinevaid probleeme ja 
 selgitatakse välja kui suur liiklus antud võrgus on 
